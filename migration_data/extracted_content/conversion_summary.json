@@ -1,0 +1,18 @@
+{
+  "conversion_summary": {
+    "total_albums_converted": 1,
+    "albums_with_tracks": 1,
+    "albums_with_images": 0,
+    "albums_with_years": 1
+  },
+  "converted_albums": [
+    {
+      "title": "2 Original albums",
+      "year": 2012,
+      "type": "studio",
+      "track_count": 31,
+      "has_image": false,
+      "source_file": "2 Original albums.html"
+    }
+  ]
+}

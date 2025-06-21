@@ -1,0 +1,12 @@
+{
+  "total_albums": 283,
+  "categories": {
+    "single": 257,
+    "album": 1,
+    "live": 8,
+    "compilation": 5,
+    "collaboration": 12
+  },
+  "total_images": 1609,
+  "extraction_date": "2025-06-20"
+}
