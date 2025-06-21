@@ -146,9 +146,8 @@ const SONG_LIST = {
     "Something inside so strong",
     "Space cowboy",
     "Stay with me",
-    "Sure Pinocchio",
-    "Sun &shadow",
-    "Tab dancing on the highwire",
+    "Sure Pinocchio",    "Sun &shadow",
+    "Tap dancing on the highwire",
     "Thank you",
     "The Angels Rejoiced Last Night",
     "The great escape",
@@ -177,6 +176,22 @@ const SONG_LIST = {
     "Wouldn't that be something",
     "You are the dream"
   ]
+};
+
+// Specific filename mappings for songs that have different filenames
+const FILENAME_MAPPINGS = {
+  "We dont make the wind blow": ["We don’t make the wind blow, lyrics.html"],
+  "Blue bitttersweet": ["Blue bittersweet.html", "Blue Bittersweet single.html"],
+  "Sun &shadow": ["Sun & shadow lyricks.html"],
+  "Tap dancing on the highwire": ["Tap dancing on the highwire.html"],  "Engel van m'n hart": ["Engel van m’n hart.html"],
+  "Broken but Home": ["Broken but Home, lyrics.html"],
+  "All of the women you'll ever need": ["All of the woman you'll ever need.html"],
+  "Around again": ["araound again.html"],
+  "Better then rain": ["Better than rain.html"],
+  "Clean up": ["Clean up lyric.html"],
+  "Miracle": ["Miracle lyric.html"],
+  "Next to me": ["Next to me lyric.html"],
+  "No reason to be shy": ["No reason to be shy.html"]
 };
 
 // Common navigation and website footer patterns to filter out
@@ -295,16 +310,52 @@ function generateFilenamePatterns(title) {
   patterns.push(`${cleaned} lyrics.html`);
   patterns.push(`${cleaned}.html`);
   
+  // Pattern 4: case variations
+  patterns.push(`${title.charAt(0).toUpperCase() + title.slice(1).toLowerCase()}.html`);
+  patterns.push(`${title.charAt(0).toUpperCase() + title.slice(1).toLowerCase()} lyrics.html`);
+  
   return patterns;
 }
 
 /**
- * Extract clean lyrics content from HTML
+ * Extract clean lyrics content from HTML using multiple strategies
  */
 function extractLyricsFromHTML(htmlContent, title) {
   if (!htmlContent) return '';
+    // Strategy 1: Look for specific HTML patterns (p.Normal with C-2 or C-1 spans)
+  const lyricsMatches = htmlContent.match(/<p class="Normal[2]?"><span class="C-[12]">(.*?)<\/span><\/p>/g);
   
-  // Remove script and style tags
+  if (lyricsMatches && lyricsMatches.length > 0) {
+    let lyrics = lyricsMatches      .map(match => {
+        const innerMatch = match.match(/<p class="Normal[2]?"><span class="C-[12]">(.*?)<\/span><\/p>/);
+        if (innerMatch) {
+          return innerMatch[1];
+        }
+        return '';
+      })
+      .filter(line => line.trim() !== '' && line !== '<br>') // Filter out empty lines and standalone <br> tags
+      .map(line => {
+        // Clean up each line
+        return line
+          .replace(/<br\s*\/?>/gi, '')
+          .replace(/&nbsp;/g, ' ')
+          .replace(/&amp;/g, '&')
+          .replace(/&lt;/g, '<')
+          .replace(/&gt;/g, '>')
+          .replace(/&quot;/g, '"')
+          .replace(/&#39;/g, "'")
+          .trim();
+      })
+      .filter(line => line !== '') // Remove any remaining empty lines
+      .join('\n');
+    
+    // Only return if we have substantial content and it looks like lyrics
+    if (lyrics.length > 20 && !lyrics.toLowerCase().includes('catalog number') && !lyrics.toLowerCase().includes('released:')) {
+      return lyrics;
+    }
+  }
+  
+  // Strategy 2: Fall back to the original approach (strip all HTML and filter)
   let content = htmlContent
     .replace(/<script[^>]*>.*?<\/script>/gis, '')
     .replace(/<style[^>]*>.*?<\/style>/gis, '')
@@ -365,6 +416,9 @@ function extractLyricsFromHTML(htmlContent, title) {
         lineLower.includes('margin:') ||
         lineLower.includes('padding:') ||
         lineLower.includes('www.ilsedelangerecords') ||
+        lineLower.includes('catalog number') ||
+        lineLower.includes('released:') ||
+        lineLower.includes('record label') ||
         line.length < 3) {
       continue;
     }
@@ -427,6 +481,102 @@ function extractLyricsFromHTML(htmlContent, title) {
  * Find and process a song file
  */
 function findAndProcessSong(title, artist) {
+  // Special case handlers for problematic character encodings
+  const specialCases = {
+    "We dont make the wind blow": "We don’t make the wind blow, lyrics.html",
+    "Engel van m'n hart": "Engel van m’n hart.html"
+  };
+  
+  if (specialCases[title]) {
+    const allFiles = fs.readdirSync(MIGRATION_SOURCE_PATH);
+    const exactMatch = allFiles.find(f => f === specialCases[title]);
+    
+    if (exactMatch) {
+      const filePath = path.join(MIGRATION_SOURCE_PATH, exactMatch);
+      console.log(`Found (special case): ${exactMatch} for "${title}"`);
+      
+      try {
+        const htmlContent = fs.readFileSync(filePath, 'utf8');
+        const lyrics = extractLyricsFromHTML(htmlContent, title);
+        
+        console.log(`   → Extracted ${lyrics ? lyrics.length : 0} characters from ${exactMatch}`);
+        
+        if (lyrics && lyrics.length > 50) {
+          return {
+            id: title.toLowerCase()
+              .replace(/[^\w\s-]/g, '')
+              .replace(/\s+/g, '-')
+              .replace(/--+/g, '-'),
+            title: title,
+            artist: artist,
+            album: "",
+            content: lyrics,
+            language: /[àáâãäåçèéêëìíîïñòóôõöùúûüý]/i.test(lyrics) || 
+                    /\b(de|het|een|en|van|voor|naar|met|op|in|aan|door|over|onder|tussen|bij|na|zonder|tegen)\b/i.test(lyrics) ? "nl" : "en",
+            verified: false,
+            source: "migration",
+            sourceFile: exactMatch
+          };
+        } else {
+          console.log(`   → Content too short or filtered out for ${exactMatch}`);
+        }
+      } catch (error) {
+        console.error(`Error reading special case ${filePath}:`, error.message);
+      }
+    }
+  }
+  
+  // First, check if there's a specific filename mapping
+  if (FILENAME_MAPPINGS[title]) {
+    for (const mappedFilename of FILENAME_MAPPINGS[title]) {
+      const filePath = path.join(MIGRATION_SOURCE_PATH, mappedFilename);
+      
+      // Try to find the file even if there are character encoding differences
+      const allFiles = fs.readdirSync(MIGRATION_SOURCE_PATH);
+      const matchingFile = allFiles.find(f => {
+        // Normalize both strings for comparison
+        const normalizedFile = f.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        const normalizedMapping = mappedFilename.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        return normalizedFile === normalizedMapping || f === mappedFilename;
+      });
+      
+      if (matchingFile) {
+        const actualFilePath = path.join(MIGRATION_SOURCE_PATH, matchingFile);
+        console.log(`Found (mapped): ${matchingFile} for "${title}"`);
+        
+        try {
+          const htmlContent = fs.readFileSync(actualFilePath, 'utf8');
+          const lyrics = extractLyricsFromHTML(htmlContent, title);
+          
+          console.log(`   → Extracted ${lyrics ? lyrics.length : 0} characters from ${matchingFile}`);
+          
+          if (lyrics && lyrics.length > 50) { // Minimum viable lyrics length
+            return {
+              id: title.toLowerCase()
+                .replace(/[^\w\s-]/g, '')
+                .replace(/\s+/g, '-')
+                .replace(/--+/g, '-'),
+              title: title,
+              artist: artist,
+              album: "",
+              content: lyrics,
+              language: /[àáâãäåçèéêëìíîïñòóôõöùúûüý]/i.test(lyrics) || 
+                      /\b(de|het|een|en|van|voor|naar|met|op|in|aan|door|over|onder|tussen|bij|na|zonder|tegen)\b/i.test(lyrics) ? "nl" : "en",
+              verified: false,
+              source: "migration",
+              sourceFile: matchingFile
+            };
+          } else {
+            console.log(`   → Content too short or filtered out for ${matchingFile}`);
+          }
+        } catch (error) {
+          console.error(`Error reading mapped ${actualFilePath}:`, error.message);
+        }
+      }
+    }
+  }
+  
+  // Generate and try standard filename patterns
   const patterns = generateFilenamePatterns(title);
   
   for (const pattern of patterns) {
@@ -452,7 +602,8 @@ function findAndProcessSong(title, artist) {
             language: /[àáâãäåçèéêëìíîïñòóôõöùúûüý]/i.test(lyrics) || 
                     /\b(de|het|een|en|van|voor|naar|met|op|in|aan|door|over|onder|tussen|bij|na|zonder|tegen)\b/i.test(lyrics) ? "nl" : "en",
             verified: false,
-            source: "migration"
+            source: "migration",
+            sourceFile: pattern
           };
         }
       } catch (error) {
@@ -469,9 +620,10 @@ function findAndProcessSong(title, artist) {
  * Main migration function
  */
 function migrateLyrics() {
-  console.log('🎵 Starting comprehensive lyrics migration...\n');
+  console.log('🎵 Starting optimized lyrics migration...\n');
   
   const allLyrics = [];
+  const missingSongs = [];
   let foundCount = 0;
   let totalCount = 0;
   
@@ -486,6 +638,8 @@ function migrateLyrics() {
       if (lyricsData) {
         allLyrics.push(lyricsData);
         foundCount++;
+      } else {
+        missingSongs.push(`${title} (${artist})`);
       }
     }
   }
@@ -498,10 +652,30 @@ function migrateLyrics() {
     return a.title.localeCompare(b.title);
   });
   
-  // Write the output file
+  // Create output directory if it doesn't exist
+  const outputDir = path.dirname(OUTPUT_LYRICS_PATH);
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+  
+  // Write the output file with enhanced metadata
+  const output = {
+    metadata: {
+      extractedAt: new Date().toISOString(),
+      totalSongs: totalCount,
+      successfulExtractions: foundCount,
+      missingSongs: missingSongs.length,
+      successRate: Math.round((foundCount / totalCount) * 100),
+      artists: Object.keys(SONG_LIST),
+      extractionMethod: "optimized-html-and-fallback"
+    },
+    lyrics: allLyrics,
+    missingSongs: missingSongs
+  };
+  
   try {
-    fs.writeFileSync(OUTPUT_LYRICS_PATH, JSON.stringify(allLyrics, null, 2));
-    console.log(`\n✅ Successfully migrated ${foundCount}/${totalCount} songs`);
+    fs.writeFileSync(OUTPUT_LYRICS_PATH, JSON.stringify(output, null, 2));
+    console.log(`\n✅ Successfully migrated ${foundCount}/${totalCount} songs (${Math.round((foundCount / totalCount) * 100)}% success rate)`);
     console.log(`📁 Output written to: ${OUTPUT_LYRICS_PATH}`);
     
     // Summary
@@ -514,6 +688,11 @@ function migrateLyrics() {
     const ilse = allLyrics.filter(l => l.artist === 'Ilse DeLange').length;
     console.log(`   The Common Linnets: ${tcl} songs`);
     console.log(`   Ilse DeLange: ${ilse} songs`);
+    
+    if (missingSongs.length > 0) {
+      console.log(`\n❌ Missing songs:`);
+      missingSongs.forEach(song => console.log(`   - ${song}`));
+    }
     
   } catch (error) {
     console.error('❌ Error writing output file:', error.message);

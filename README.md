@@ -29,6 +29,12 @@ This repository contains all migration scripts and documentation used to migrate
 - **migration_tester.py**: Tests migration process and validates results
 - **migration_validator.py**: Validates migrated content integrity
 
+### Lyrics Extraction Script
+- **fix-lyrics-migration-final.js**: Node.js script that extracts and filters lyrics for 161 songs by Ilse DeLange and The Common Linnets, handling filename mappings, special character encodings, and HTML formatting. Outputs `public/content/lyrics.json` with full metadata.
+
+### Cleanup
+- Legacy and debug scripts have been removed. The repository now focuses on the final extraction and migration scripts.
+
 ## Migration Data
 
 The migration_data directory contains:
@@ -39,6 +45,23 @@ The migration_data directory contains:
 ## Database Migrations
 
 Prisma migration files for setting up the normalized database schema used by the new website.
+
+## Output
+- **public/content/lyrics.json**: JSON file containing all extracted lyrics with metadata.
+
+## Consuming Extracted Lyrics
+- The complete lyrics dataset is written to `public/content/lyrics.json`.
+- That JSON contains:
+  - `metadata`: time of extraction, counts, success rate, etc.
+  - `lyrics`: array of objects with `{ id, title, artist, album, content, language, verified, source, sourceFile }`.
+  - `missingSongs`: array of titles not found (should be empty after final run).
+- To use in your application or scripts, import or fetch this file:
+  ```js
+  import lyricsData from './public/content/lyrics.json'
+  console.log(lyricsData.metadata);
+  console.log(lyricsData.lyrics.length);
+  ```
+- You can also fetch it at runtime if your front end serves `/content/lyrics.json`.
 
 ## Usage
 
