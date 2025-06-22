@@ -89,11 +89,14 @@ jobs:
           - `content` - Full lyrics text
           - `language` - Language code (en/nl)
           - `verified` - Data verification status
-          - `source` - Original source reference          - `sourceFile` - Original HTML filename
+          - `source` - Original source reference
+          - `sourceFile` - Original HTML filename
           
           ---
           *Generated automatically from the IlseDeLangeRecords migration repository*
-          EOF      - name: Create GitHub Release
+          EOF
+
+      - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ steps.tag.outputs.tag }}
