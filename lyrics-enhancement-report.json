@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-06-22T16:32:14.450Z",
+  "action": "lyrics-enhancement",
+  "songsProcessed": 161,
+  "languageDistribution": {
+    "en": 154,
+    "nl": 7
+  },
+  "enhancements": [
+    "Added language field (en/nl) to all songs",
+    "Improved lyrics formatting with proper spacing",
+    "Removed website metadata and navigation text",
+    "Detected and preserved verse/chorus structure where possible"
+  ],
+  "newSchema": {
+    "title": "Song title",
+    "artist": "Artist name (Ilse DeLange or The Common Linnets)",
+    "language": "ISO 639-1 language code (en for English, nl for Dutch)",
+    "lyrics": "Formatted lyrics text with improved spacing"
+  }
+}
