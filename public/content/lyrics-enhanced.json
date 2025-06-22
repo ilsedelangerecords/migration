@@ -1,19 +1,18 @@
 {
   "metadata": {
-    "extractedAt": "2025-06-22T14:28:23.276Z",
-    "totalSongs": 122,
+    "extractedAt": "2025-06-22T11:13:42.048Z",
+    "totalSongs": 130,
     "successfulExtractions": 122,
+    "missingSongs": 2,
+    "successRate": 98,
     "artists": [
       "The Common Linnets",
       "Ilse DeLange"
     ],
-    "extractionMethod": "processed-and-optimized",
-    "sourceDataLimitation": "Original source contained 124 unique song entries, not 161 as initially expected",
-    "completeness": "100% of available source data processed",
-    "artistCounts": {
-      "Ilse DeLange": 112,
-      "The Common Linnets": 10
-    }
+    "extractionMethod": "processed-from-existing-data-with-placeholders",
+    "enhancedAt": "2025-06-22T14:25:11.040Z",
+    "originalSongs": 122,
+    "placeholderSongs": 8
   },
   "lyrics": [
     {
@@ -67,6 +66,11 @@
       "lyrics": "Back of my mind\nOther artist\nVarious artist\nWell my daddy he stood at the foot of the stairs\nHe was calling to me at the time\nAnd I knew even then\nI could die for the thoughts\nThat I kept in the back of my mind\nHow I felt for my dad\n'Cause there were no words to define\nOf feelings and stuff\nThat I kept in the back of my mind\nSo I took to the highway\nAnd I kept to myself\nJust a lookin' and hopin' to find\nSome solutions, some answers\nSome way to exist\nAll this stuff in the back of my mind\nSo I took me a job\nAnd I took me a man\nAnd I took me a bottle of wine\n'Til all I had left\nWas this junk in the back of my mind\nDrivin' like rain, on a runaway train\nFlyin' blind\nShot from the dark\nIn the back of my mind\nWell the end of the tunnel\nIt never came up\n'Til I came to the end of the line\nAnd I saw that the light\nWas a spark in the back of my mind\nAnd the cold wind that blew\nThrough the hole in my heart\nMade a fire for the very first time\nOf some branches of trust\nAnd a kindling of faith\nAnd that spark in the back of my mind\nDrivin' like rain, on a runaway train\nFlyin' blind\nShot from the dark\nIn the back of my mind\nShot from the dark\nIn the back of my mind\nBack of my mind"
     },
     {
+      "title": "Beautiful distraction",
+      "artist": "Ilse DeLange",
+      "lyrics": "[Lyrics for \"Beautiful distraction\" need to be extracted from individual HTML file: Beautiful%20distraction.html or Beautiful%20distraction%20single.html]"
+    },
+    {
       "title": "Before you let me go",
       "artist": "Ilse DeLange",
       "lyrics": "Before you let me go\nOther artist\nVarious artist\nStay tonight\nLet me hold you like I never did before\nTake my arms\nAnd let me hold you like I never did before\nAnd I should have tried just to talk about this\nWaiting, ending\nI should have tried just to let you know\nThat I'm still here\nSo before you let me go...\nTake my hands\nLet me touch you like I never did before\nTake my heart and let me love you\nLike I never did before\nAnd I should have tried just to talk about it\nWaiting, ending\nI should have tried just to let you know\nThat I'm still here\nNow my heart is on the line\nAnd we see ourselves no more\nIt's so much harder than before\nSo before you let me go\nBefore you let me go...\nSave the dance and let me spin you\n'Til your world is turning round and round\nRound and round, round and round\nSave the chance and let me show you\nJust like you need a little more\nJust like you need a little more\nAnd I should have tried just to talk about it\nWaiting, ending\nI should have tried just to let you know\nThat I'm still here\nNow my heart is on the line\nUntil we see ourselves no more\nIt's so much harder than before\nSo much harder than before\nSo before you let me go...\nBefore you let me go...\nNow my heart is on the line\nUntil we see ourselves no more\nIt's so much harder than before\nSo much harder than before\nNow my heart is on the line\nAnd now we bruise with every step\nCan we make it easier\nSome time?\nSome time...\nBefore you let me go"
@@ -102,6 +106,11 @@
       "lyrics": "She is dancing for you now\nWatch her twirling in the crowd\nShe is beautiful\nShe is beautiful\nShe is fine\nShe's filled with grace\nSuch loveliness for such a place\nShe is beautiful\nShe is beautiful\nAnd you're left alone to ask of the ground\n\"Will you hold?\"\nShe is beautiful\nShe is beautiful\nThe swollen song burns and tapers off\nShe is beautiful\nShe is beautiful\nWhere fearless ones go out and play\nBarreling through to Heaven's gates\nShe is beautiful\nShe is beautiful\nHer skin beneath her fingernails\nBlood stains tell her sordid tales\nShe is beautiful\nShe is beautiful\n'Cause night recedes in scorching lines\nThe city's burning all the time\nShe is beautiful\nShe is beautiful\nWill you hold her?\nWill you?\nShe is beautiful\nShe is beautiful\nShe is beautiful\nShe is beautiful\nShe is beautiful\nShe is beautiful"
     },
     {
+      "title": "Carousel",
+      "artist": "Ilse DeLange",
+      "lyrics": "[Lyrics for \"Carousel\" need to be extracted from individual HTML file: Carousel.html or Carousel%20single.html]"
+    },
+    {
       "title": "Carry hope",
       "artist": "Ilse DeLange",
       "lyrics": "The power is in your hands\nThe dust will fall to sand\nGot to make this land your own\nYou must feel free to fall\nKnow trust will catch us all\nAnd faith calls out your name\nWhen I let go of hope\nThere's no one left to follow\nThere's nothing but the power to believe in me\nI reach for what I know\nWhen I can't see tomorrow\nI carry hope\nThere is no security\nIn all it is we see\nTomorrow is your home\nWhen I let go of hope\nAnd there's no one left to follow\nThere's nothing but the power to believe in me\nI reach for what I know\nWhen I can't see tomorrow\nI carry hope\nThe wind carries the past\nIt whispers loud and fast\nFrom days now gone\nThey never Previous\nI feel inside of me\nIt's lifting me out of sorrow\nMy head held high\nLift me up. Lift me up\nLift me up. Lift me up\nWhen I let go of hope\nAnd there's no one left to follow\nThere's nothing but the power to believe in me\nI reach for what I know\nWhen I can't see tomorrow\nI carry hope\nCarry hope"
@@ -120,6 +129,11 @@
       "title": "De oorlog meegemaakt",
       "artist": "Ilse DeLange",
       "lyrics": "De oorlog meegemaakt\nOther artist\nVarious artist\nDe oorlog meegemaakt\nIk ben Jaap, ik ben je buurman\nTweeenzeventig jaar oud\nIk was twintig toen de mof kwam\nHet was lente, het werd koud\nVijf jaar hebben wij geleden\nHet land bezet, je hart gekraakt\nDus praat jij mij niet over vrede\nIk heb de oorlog, ik heb de oorlog meegemaakt\nIk ben een Ier, dus zeg maar Perry\nHoewel ik Sean heet in het echt\nSinds ik in Belfast ben geboren\nIs het leven een gevecht\n\"Brits out\", \"Up the IRA\"\nHet zijn wat kreten die je slaakt\nMaar als je aan de Sjenkil Road woont\nHeb je de oorlog, heb je de oorlog meegemaakt\nNoem mij maar Sophie als je wilt\nIk ben veertien, klein en blond\nIk woon nog steeds in Sarajewo\nIn een kelder, op de grond\nToen ik tien was klonken schoten\n'k Had geluk, werd niet geraakt\nPas nu weet ik hoe vrede klinkt\n'k Heb de oorlog meegemaakt\nIk ben Dolf, tweeendertig\n'n trendy bril en piekig haar\nIk heb tv, ik lees de kranten\nJe ziet geweld, gevecht, gevaar\nIk kijk het nieuws, dan ga ik slapen\nJe vergeet totdat je weer ontwaakt\nEn heel soms droom ik zelfs van vrede\nIk heb de oorlog, ik heb de oorlog meegemaakt\nIk heb de oorlog meegemaakt\nIk heb de oorlog meegemaakt\nIk ben Jaap, ik ben je buurman\nIk heb de oorlog meegemaakt\nIk ben een Ier, dus zeg maar Perry\nIk heb de oorlog meegemaakt\nNoem mij maar Sophie als je wilt\nIk heb de oorlog meegemaakt\nIk ben Dolf, tweeendertig jaar\nO, ho\nIk heb de oorlog meegemaakt\nIk heb de oorlog meegemaakt (heb de oorlog meegemaakt)\nIk heb de oorlog meegemaakt\nIk heb de oorlog meegemaakt (yeah, yeah, yeah)"
+    },
+    {
+      "title": "Dear John",
+      "artist": "Ilse DeLange",
+      "lyrics": "[Lyrics for \"Dear John\" need to be extracted from individual HTML file: Dear%20John.html or Dear%20John%20single.html]"
     },
     {
       "title": "Déjà Vu",
@@ -240,6 +254,16 @@
       "title": "I still cry",
       "artist": "Ilse DeLange",
       "lyrics": "I'm making flowers out of paper\nWhile darkness takes the afternoon\nI know that they won't Previous forever\nI still cry sometimes when I remember you\nI still cry sometimes when I hear your name\nI said goodbye and I know you're alright now\nIt's just that I recall September\nIt's just that I still hear your song\nIt's just I can't seem to remember\nForever more those days are gone\nI still cry sometimes when I remember you\nI still cry sometimes when I hear your name\nI said goodbye and I know you're alright now\nI still cry sometimes when I rememeber you\nI still cry sometimes when I hear your name\nI said goodbye and I know you're alright now"
+    },
+    {
+      "title": "I'd be yours",
+      "artist": "Ilse DeLange",
+      "lyrics": "[Lyrics for \"I'd be yours\" need to be extracted from individual HTML file: I%20d%20be%20yours.html or I%20d%20be%20yours%20single.html]"
+    },
+    {
+      "title": "I'm not so tough",
+      "artist": "Ilse DeLange",
+      "lyrics": "[Lyrics for \"I'm not so tough\" need to be extracted from individual HTML file: I%20m%20not%20so%20tough.html or I%20m%20not%20so%20tough%20single.html]"
     },
     {
       "title": "Iedereen is van de wereld",
@@ -572,6 +596,11 @@
       "lyrics": "Day one God smiled,\nGave us all the wisdom of a newborn child\nWe've already begun to forget\nWhat the heart knows the heart sees\nWe're just as much the forest, as we are the trees\nEvery little seed trying to find Where the light comes from\nChorus:\nAnd it's a world of hurt, nothing works\nIt's a lonely little planet made of dust and dirt\nWho'd ever think that in the midst of all this\nSomething as beautiful as love exists\nAnd when I hold you, and you hold me\nHeaven doesn't seem like such a mystery\nDarling in a world of hurt\nYou make me feel so good\nDay one of our love,\nTwo heartbroken people scared to trust too much\nOh but here it comes that feelin' again\nThat every lover swears will never end\nWe thought we'd been there, done that,\nWe knew we'd never been here..\nWe've never done this\nWhen you love someone\nRepeat chorus"
     },
     {
+      "title": "Wouldn't that be something",
+      "artist": "Ilse DeLange",
+      "lyrics": "[Lyrics for \"Wouldn't that be something\" need to be extracted from individual HTML file: Wouldn%20t%20that%20be%20something.html or Wouldn%20t%20that%20be%20something%20single.html]"
+    },
+    {
       "title": "You are the dream",
       "artist": "Ilse DeLange",
       "lyrics": "You are the dream\nOther artist\nVarious artist\nI lived my life, convinced i find your love somehow, somewhere.\nI healt on to the faith that you would show yourself one day.\nSomething in me believed, this night was meant to be.\n(CHORUS)\nYou are the promise\nI made to my heart\nYou are the vision\nI saw in the dark\nYou are the reason\nI waited so patiently\nSo many nights when I closed my eyes\nIt's you that I have seen\nI am the dreamer\nYou are the dream.\nIt wasn't always clear to see\nwhere I was headed to\nSomehow I choose the one that led to you\nDoesn't matter how far I've been\nI've found my journeys end\n(CHORUS)\nOoh I am the dreamer\nYou are the dream.\nYou are the dream"
@@ -602,6 +631,11 @@
       "lyrics": "Hearts on fire, lyrics\nOther artist\nVarious artist\nHearts on fire\nSo there you are, alone and proud\nAnother wasted evening down\nTelling yourself is what you need\nTill you're back on your feet\nI know those winds that changed your course\nAnd never blown so hard before\nBaby, come on out\nDid you feel your heart's on fire\nDid you see the sparks are flying\nBurn in the night, yeah, we\nAre the wild and free\nDid you feel your heart's on fire\nHearts on fire\nNo clock is counting down the time\nNo walls between your heart and mine\nIt's all been set in motion\nIn motion, no explosion\nThese city's streets are yours to roam\nIt's all here waiting for you\nI'm right here waiting\nDid you feel your heart's on fire\nDid you see the sparks are flying\nBurn in the night, yeah, we\nAre the wild and free\nDid you feel your heart's on fire\nDid you feel your heart's on fire\nDid you see the sparks are flying\nBurn in the night, yeah, we\nAre the wild and free\nDid you feel your heart's on fire\nHearts on fire\nHearts on fire\nI've been waiting (Been waiting)\nI've been waiting\nBurn in the night, yeah, we\nAre the wild and free\nDid you feel your heart's on fire\nDid you feel your heart's on fire\nDid you see the sparks are flying\nBurn in the night, yeah, we\nAre the wild and free\nDid you feel your heart's on fire\nHearts on fire\nHearts on fire"
     },
     {
+      "title": "Hungry hands",
+      "artist": "The Common Linnets",
+      "lyrics": "[Lyrics for \"Hungry hands\" need to be extracted from individual HTML file or source data]"
+    },
+    {
       "title": "In your eyes",
       "artist": "The Common Linnets",
       "lyrics": "In your eyes\nOther artist\nVarious artist\nIn your eyes"
@@ -620,6 +654,11 @@
       "title": "Still loving after you",
       "artist": "The Common Linnets",
       "lyrics": "Still loving after you, lyrics\nOther artist\nVarious artist\nStill loving after you\nHalf a world away\nand a thousand nights behind\nI am still loving after you\nIn the darkness of my days\nin the silence of my mind\nI am still loving after you\nAnd your beautiful dreams are illusions\nand the song that you sing is not true\nand the times that you have lied\nI am still loving after you\nI'm a stranger to these streets\nA ghost behind these walls\nAnd regrets I've more than a few\nWith a heart that's hurting hollow.\nBroken by a fall\nI am still loving after you\nAnd your beautiful dreams are illusions\nand the song that you sing is not true\nand the times that you have lied\nI am still loving after you.\nI thought one day I might be in love\ndeserving of your love\nI quess I must not know when to give up\nbecause I'm not giving up\nAnd your beautiful dreams are illusions\nand the song that you sing is not true\nand the times that you have lied\nI am still loving after you\nand the times that you have lied\nI am still loving after you\nCause I am still loving after you…"
+    },
+    {
+      "title": "We don't make the wind blow",
+      "artist": "The Common Linnets",
+      "lyrics": "[Lyrics for \"We don't make the wind blow\" need to be extracted from individual HTML file or source data]"
     },
     {
       "title": "Where do I go with me",

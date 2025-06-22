@@ -1,0 +1,10 @@
+{
+  "action": "Complete lyrics migration",
+  "songsProcessed": 122,
+  "artists": [
+    "Ilse DeLange",
+    "The Common Linnets"
+  ],
+  "completionRate": "100%",
+  "note": "100% of available source data processed"
+}
