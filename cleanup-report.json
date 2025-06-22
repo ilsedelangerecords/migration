@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-06-22T16:11:30.664Z",
+  "action": "repository-cleanup",
+  "filesRemoved": 23,
+  "filesSkipped": 0,
+  "totalProcessed": 23,
+  "removedFiles": [
+    "analyze-missing-songs.js",
+    "complete-song-analysis.js",
+    "create-complete-framework.js",
+    "debug-special-cases.js",
+    "enhance-lyrics-data.js",
+    "extract-lyrics-fresh.js",
+    "extract-lyrics.js",
+    "extract-navigation-songs.js",
+    "final-migration-completion.js",
+    "finalize-lyrics-migration.js",
+    "fix-lyrics-migration-clean.js",
+    "fix-lyrics-migration-final.js",
+    "fix-lyrics-migration-improved.js",
+    "test-filenames.js",
+    "commit-summary.json",
+    "COMMIT_MESSAGE.txt",
+    "target-missing-songs.json",
+    "lyrics-extraction-todo.json",
+    "lyrics-extraction-instructions.json",
+    "missing-songs-analysis.json",
+    "public/content/lyrics-complete-framework.json",
+    "public/content/lyrics-enhanced.json",
+    "public/content/lyrics_preview.txt"
+  ],
+  "keptEssentialFiles": [
+    "enforce-161-songs.js",
+    "process-existing-lyrics.js",
+    "public/content/lyrics.json",
+    "README.md",
+    "MIGRATION_COMPLETE.md",
+    "lyrics-161-enforcement-summary.json"
+  ],
+  "note": "Repository cleaned to keep only essential production files and documentation"
+}
