@@ -1,0 +1,110 @@
+name: Release Lyrics Dataset
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'public/content/lyrics.json'
+      - 'fix-lyrics-migration-final.js'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., v1.0.0)'
+        required: true
+        default: 'v1.0.0'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, 'lyrics') || github.event_name == 'workflow_dispatch'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check if lyrics.json exists
+        run: |
+          if [ ! -f "public/content/lyrics.json" ]; then
+            echo "Error: lyrics.json not found!"
+            exit 1
+          fi
+
+      - name: Extract metadata from lyrics.json
+        id: metadata
+        run: |
+          SONG_COUNT=$(jq '.metadata.totalSongs' public/content/lyrics.json)
+          EXTRACTION_TIME=$(jq -r '.metadata.extractionTime' public/content/lyrics.json)
+          SUCCESS_RATE=$(jq '.metadata.successRate' public/content/lyrics.json)
+          echo "song_count=$SONG_COUNT" >> $GITHUB_OUTPUT
+          echo "extraction_time=$EXTRACTION_TIME" >> $GITHUB_OUTPUT
+          echo "success_rate=$SUCCESS_RATE" >> $GITHUB_OUTPUT
+
+      - name: Generate release tag
+        id: tag
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            TAG="${{ github.event.inputs.version }}"
+          else
+            TAG="lyrics-$(date +%Y%m%d-%H%M%S)"
+          fi
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Create release notes
+        run: |
+          cat > release-notes.md << 'EOF'
+          # Ilse DeLange & The Common Linnets - Complete Lyrics Dataset
+          
+          This release contains the complete lyrics dataset extracted from the IlseDeLangeRecords website.
+          
+          ## 📊 Dataset Stats
+          - **Total Songs**: ${{ steps.metadata.outputs.song_count }}
+          - **Success Rate**: ${{ steps.metadata.outputs.success_rate }}%
+          - **Extraction Date**: ${{ steps.metadata.outputs.extraction_time }}
+          
+          ## 📁 Files
+          - `lyrics.json` - Complete lyrics dataset with metadata
+          
+          ## 🎵 Artists Included
+          - Ilse DeLange (solo career)
+          - The Common Linnets (duo with Waylon)
+          
+          ## 💾 Usage
+          ```javascript
+          // Load the dataset
+          const lyricsData = require('./lyrics.json');
+          console.log(`Found ${lyricsData.lyrics.length} songs`);
+          
+          // Find songs by artist
+          const ilseSongs = lyricsData.lyrics.filter(song => song.artist === 'Ilse DeLange');
+          const commonLinnetsSongs = lyricsData.lyrics.filter(song => song.artist === 'The Common Linnets');
+          ```
+          
+          ## 📋 Data Structure
+          Each song object contains:
+          - `id` - Unique identifier
+          - `title` - Song title
+          - `artist` - Artist name
+          - `album` - Album name
+          - `content` - Full lyrics text
+          - `language` - Language code (en/nl)
+          - `verified` - Data verification status
+          - `source` - Original source reference
+          - `sourceFile` - Original HTML filename
+          
+          ---
+          *Generated automatically from the IlseDeLangeRecords migration repository*
+          EOF
+
+      - name: Create GitHub Release
+        uses: ncipollo/create-release@v1
+        with:
+          tag: ${{ steps.tag.outputs.tag }}
+          name: "Lyrics Dataset ${{ steps.tag.outputs.tag }}"
+          bodyFile: release-notes.md
+          artifacts: "public/content/lyrics.json"
+          artifactContentType: "application/json"
+          draft: false
+          prerelease: false
+          generateReleaseNotes: false
+          token: ${{ secrets.GITHUB_TOKEN }}
