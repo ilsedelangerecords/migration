@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for all tags
 
       - name: Check if lyrics.json exists
         run: |
@@ -44,7 +46,14 @@ jobs:
         id: tag
         run: |
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-            TAG="${{ github.event.inputs.version }}"
+            BASE_TAG="${{ github.event.inputs.version }}"
+            TAG=$BASE_TAG
+            # If tag exists, append short commit hash to make it unique
+            if git rev-parse "$TAG" >/dev/null 2>&1; then
+              echo "Tag $TAG already exists. Appending short commit hash."
+              SHORT_SHA=$(git rev-parse --short HEAD)
+              TAG="$BASE_TAG-$SHORT_SHA"
+            fi
           else
             TAG="lyrics-$(date +%Y%m%d-%H%M%S)"
           fi
