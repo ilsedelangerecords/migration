@@ -1,25 +1,16 @@
 {
   "metadata": {
-    "extractedAt": "2025-06-22T15:41:31.769Z",
-    "totalSongs": 122,
-    "successfulExtractions": 122,
+    "extractedAt": "2025-06-22T15:40:37.116Z",
+    "totalSongs": 163,
+    "extractedSongs": 122,
+    "placeholderSongs": 41,
+    "targetCompletion": "161 songs (131 Ilse DeLange + 30 The Common Linnets)",
     "artists": [
       "The Common Linnets",
       "Ilse DeLange"
     ],
-    "extractionMethod": "comprehensive-source-extraction",
-    "sourceDataStatus": "Extracted all available lyrics from source material",
-    "completeness": "100% of discoverable source data processed",
-    "note": "Original source contained 122 extractable songs, not the anticipated 161",
-    "targetReconciliation": {
-      "anticipated": 161,
-      "available": 122,
-      "extractionRate": "100% of available data"
-    },
-    "artistCounts": {
-      "Ilse DeLange": 112,
-      "The Common Linnets": 10
-    }
+    "extractionMethod": "processed-with-missing-placeholders",
+    "completeness": "122/161 songs extracted (76%)"
   },
   "lyrics": [
     {
@@ -36,6 +27,13 @@
       "title": "All I got to give",
       "artist": "Ilse DeLange",
       "lyrics": "All i got to give\nOther artist\nVarious artist\nIn the space left behind\nEmpty notes in my mind\nStill naïve and still blind\nUndiscovered but true\nOlder version of you\nLet's rewind and go back\nLet's pretend we don't have\nEven chances are gone\nAnd we just carry on\nAnd all that I have\nIs all I can give\nYou're inside my soul...now\nWe've fallen from grace\nEchoes of faith\nAll that I own\nIs all I got to give\nA reflection of trust\nIs crumbled to dust\nIf we're building we must\nKeep it together\nNow the damage is done\nNothing's hiding the sun\nNo more wine in the glass\nIf we drink it too fast\nBitter taste on my tongue\nSlowly fading\nI'm erasing in you\nAnd all that I have\nIs all I can give\nYou're inside my soul...now\nWe've fallen from grace\nEchoes of faith\nAll that I own\nIs all I got to give\n(Is all I got to give)\n'Cause all that I have\nIs all I can give\nYou're inside my soul...now\nWe've fallen from grace\nEchoes of faith\nAll that I own\nAnd all that I have\nIs all I can give\nYou're inside my soul...now\nWe've fallen from grace\nEchoes of faith\nAll that I own\nIs all I got to give\nIs all I got to give\nIs all I got to give\nAll i got to give"
+    },
+    {
+      "title": "All of the women you'll ever need",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from All%20of%20the%20women%20you%E2%80%99ll%20ever%20need.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: All%20of%20the%20women%20you%E2%80%99ll%20ever%20need.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "All%20of%20the%20women%20you%E2%80%99ll%20ever%20need.html"
     },
     {
       "title": "All that you do",
@@ -68,14 +66,35 @@
       "lyrics": "Boy, you're looking mighty fine tonight\nAnd every girl's got you in her sights\nWhat you're doing with a clown like me\nIs surely one of life's little mysteries\nSo tonight I'll ask the stars above\nHow did I ever win your love?\nWhat did I do, what did I do, what did I say\nTo turn your angel eyes my way?\nAnd I'm the girl who never learned to dance\nI never even got one second glance\nAcross the crowded room, that was close enough\nI could look, but I could never touch\nSo tonight I'll ask the stars above\nHow did I ever win your love?\nWhat did I do, what did I do, what did I say\nTo turn your angel eyes my way?\nDon't anybody wake me if this is a dream\n'Cause he is the best thing that's ever happened to me\nAll you girls you can, but you look all you like\nAnd there's just one more thing I need to know\nIf this is love then why does it scare me so\nIt must be something only you can see\nSo tonight I'll ask the stars above\nHow did I ever win your love?\nWhat did I do, what did I do, what did I say\nTo turn your angel eyes my way?\nWhat did I do, what did I do, what did I say\nTo turn your angel eyes my way?"
     },
     {
+      "title": "Around again",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Around%20again.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Around%20again.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Around%20again.html"
+    },
+    {
       "title": "Back of my mind",
       "artist": "Ilse DeLange",
       "lyrics": "Back of my mind\nOther artist\nVarious artist\nWell my daddy he stood at the foot of the stairs\nHe was calling to me at the time\nAnd I knew even then\nI could die for the thoughts\nThat I kept in the back of my mind\nHow I felt for my dad\n'Cause there were no words to define\nOf feelings and stuff\nThat I kept in the back of my mind\nSo I took to the highway\nAnd I kept to myself\nJust a lookin' and hopin' to find\nSome solutions, some answers\nSome way to exist\nAll this stuff in the back of my mind\nSo I took me a job\nAnd I took me a man\nAnd I took me a bottle of wine\n'Til all I had left\nWas this junk in the back of my mind\nDrivin' like rain, on a runaway train\nFlyin' blind\nShot from the dark\nIn the back of my mind\nWell the end of the tunnel\nIt never came up\n'Til I came to the end of the line\nAnd I saw that the light\nWas a spark in the back of my mind\nAnd the cold wind that blew\nThrough the hole in my heart\nMade a fire for the very first time\nOf some branches of trust\nAnd a kindling of faith\nAnd that spark in the back of my mind\nDrivin' like rain, on a runaway train\nFlyin' blind\nShot from the dark\nIn the back of my mind\nShot from the dark\nIn the back of my mind\nBack of my mind"
     },
     {
+      "title": "Beautiful distraction",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Beautiful%20distraction.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Beautiful%20distraction.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Beautiful%20distraction.html"
+    },
+    {
       "title": "Before you let me go",
       "artist": "Ilse DeLange",
       "lyrics": "Before you let me go\nOther artist\nVarious artist\nStay tonight\nLet me hold you like I never did before\nTake my arms\nAnd let me hold you like I never did before\nAnd I should have tried just to talk about this\nWaiting, ending\nI should have tried just to let you know\nThat I'm still here\nSo before you let me go...\nTake my hands\nLet me touch you like I never did before\nTake my heart and let me love you\nLike I never did before\nAnd I should have tried just to talk about it\nWaiting, ending\nI should have tried just to let you know\nThat I'm still here\nNow my heart is on the line\nAnd we see ourselves no more\nIt's so much harder than before\nSo before you let me go\nBefore you let me go...\nSave the dance and let me spin you\n'Til your world is turning round and round\nRound and round, round and round\nSave the chance and let me show you\nJust like you need a little more\nJust like you need a little more\nAnd I should have tried just to talk about it\nWaiting, ending\nI should have tried just to let you know\nThat I'm still here\nNow my heart is on the line\nUntil we see ourselves no more\nIt's so much harder than before\nSo much harder than before\nSo before you let me go...\nBefore you let me go...\nNow my heart is on the line\nUntil we see ourselves no more\nIt's so much harder than before\nSo much harder than before\nNow my heart is on the line\nAnd now we bruise with every step\nCan we make it easier\nSome time?\nSome time...\nBefore you let me go"
+    },
+    {
+      "title": "Better then rain",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Better%20then%20rain.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Better%20then%20rain.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Better%20then%20rain.html"
     },
     {
       "title": "Beyond gravity",
@@ -98,6 +117,13 @@
       "lyrics": "Breathe in, breathe out\nOther artist\nVarious artist\nFive hundred and nine black sheep slowly jump over me\nAs soon as I try to get you off my mind I fail\nAnother dreamless night watching the moon cross the sky\nCursing the sun cause I know it has won again\nI breathe in, breathe out\nI'm stuck in those shadowed doubts\nI'm feeling my way\nSo tired of seeing blind\nThere's nothing I can do now\nBreathe in, breathe out\nI'm raising my white flag high\nI surrender myself though I'm not sure why\nAnd I hate being wrong and I never let on when I am\nAnd I don't like to beg but I'm down on my knees this time\nBreathe in, breathe out\nI'm stuck in those shadowed doubts\nI'm feeling my way\nSo tired of seeing blind\nThere's nothing I can do now\nWhy am I so stubborn for the sake of it\nI bet I'd try to catch and tame the wind\nAnd all the while I know that you would take me back\nWhat's wrong with that\nI breathe in, breathe out\nI breathe in, breathe out\nI'm feeling my way\nSo tired of seeing blind\nYeah I breathe in\nFive hundred and nine black sheep slowly jump over me\nBreathe in, breathe out"
     },
     {
+      "title": "Breathin'",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Breathin%E2%80%99.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Breathin%E2%80%99.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Breathin%E2%80%99.html"
+    },
+    {
       "title": "Broken girl",
       "artist": "Ilse DeLange",
       "lyrics": "Rewrote the story, that I have told\nCan tell what's rubble and what is gold\nYou put a softness back on my hands\nRepaired with mystery my confidence\nBefore I knew it, you understood\nYou're on my skin now, run through my blood\nIt's really gonna make you wonder\n'Cause I no longer hide\nI have grown, no longer invincible\nCried rivers full\nIn your waters I am calm\nRain wash me clean\nAll your strenght reflects in me\nI'm never gonna let you go\nI feel uncertain, I felt unworthy\nSmallest attention, not meant for me\nMy shoulders carried, you took that load\nYou took the weight off, from off my soul\nIt's really gonna make you wonder\n'Cause I no longer hide\nI have grown, no longer invincible\nCried rivers full\nIn your waters I am calm\nRain wash me clean\nAll your strenght reflects in me\nI'm never gonna let you go\n'Cause every little whisper, now gets told\nAnd all the little secrets that I've known are now yours\nYou've stopped the bleeding, you made me whole\n'Cause I no longer hide\nI have grown, no longer invincible\nCried rivers full\nIn your waters I am calm\nRain wash me clean\nAll your strenght reflects in me\nRain, rain wash me clean\nWash me clean\nHide, hide\nI have grown, no longer invincible\nCried rivers full\nIn your waters I am calm\nRain wash me clean\nAll your strength reflects in me\nI'm never gonna let you go\nBroken girl"
@@ -108,6 +134,13 @@
       "lyrics": "She is dancing for you now\nWatch her twirling in the crowd\nShe is beautiful\nShe is beautiful\nShe is fine\nShe's filled with grace\nSuch loveliness for such a place\nShe is beautiful\nShe is beautiful\nAnd you're left alone to ask of the ground\n\"Will you hold?\"\nShe is beautiful\nShe is beautiful\nThe swollen song burns and tapers off\nShe is beautiful\nShe is beautiful\nWhere fearless ones go out and play\nBarreling through to Heaven's gates\nShe is beautiful\nShe is beautiful\nHer skin beneath her fingernails\nBlood stains tell her sordid tales\nShe is beautiful\nShe is beautiful\n'Cause night recedes in scorching lines\nThe city's burning all the time\nShe is beautiful\nShe is beautiful\nWill you hold her?\nWill you?\nShe is beautiful\nShe is beautiful\nShe is beautiful\nShe is beautiful\nShe is beautiful\nShe is beautiful"
     },
     {
+      "title": "Carousel",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Carousel.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Carousel.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Carousel.html"
+    },
+    {
       "title": "Carry hope",
       "artist": "Ilse DeLange",
       "lyrics": "The power is in your hands\nThe dust will fall to sand\nGot to make this land your own\nYou must feel free to fall\nKnow trust will catch us all\nAnd faith calls out your name\nWhen I let go of hope\nThere's no one left to follow\nThere's nothing but the power to believe in me\nI reach for what I know\nWhen I can't see tomorrow\nI carry hope\nThere is no security\nIn all it is we see\nTomorrow is your home\nWhen I let go of hope\nAnd there's no one left to follow\nThere's nothing but the power to believe in me\nI reach for what I know\nWhen I can't see tomorrow\nI carry hope\nThe wind carries the past\nIt whispers loud and fast\nFrom days now gone\nThey never Previous\nI feel inside of me\nIt's lifting me out of sorrow\nMy head held high\nLift me up. Lift me up\nLift me up. Lift me up\nWhen I let go of hope\nAnd there's no one left to follow\nThere's nothing but the power to believe in me\nI reach for what I know\nWhen I can't see tomorrow\nI carry hope\nCarry hope"
@@ -116,6 +149,13 @@
       "title": "Child of the wild blue yonder",
       "artist": "Ilse DeLange",
       "lyrics": "Child of the wild blue yonder\nOther artist\nVarious artist\nShe has the wind as a witness\nShe has feelings that fly by night\nShe believes in forgiveness\nAnd you can fly beside her\nShe lets the bright lights guide her\nThrough the rain and the drivin' snow\nWhere it comes from she don't know\nShe's a child of the wild blue yonder\nShe's a child of the wild blue yonder\nBorn in an angel's tear\nThat's just a little trick she does\nShe makes a dive for the plain that's calling\nHeads for the clouds like a little dove\nShe can't help her laughing\nShe can't stop your crying days\nSometimes it hurts to be having\nThat kinda love that bears away\nShe's a child of the wild blue yonder\nBorn in an angel's tear\nShe's a child of the wild blue yonder\nMedicine woman raised her\nSpirit father praised her\nThrough their love she was set free\nFrom a baby kicking and screaming\nTo a full blood woman dreaming\nWith the power just to be\nShe's a child of the wild blue yonder\nShe's a child of the wild blue yonder\nBorn in an angel's tear\nShe's a child of the wild blue yonder\nShe's a child of the wild blue yonder\nBorn in an angel's tear\nShe's a child of the wild blue yonder\nShe's a child of the wild blue yonder\nShe's a child of the wild blue yonder\nShe's a child of the wild blue yonder\nChild of the wild blue yonder"
+    },
+    {
+      "title": "Clean up",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Clean%20up.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Clean%20up.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Clean%20up.html"
     },
     {
       "title": "Dance on the heartbreak",
@@ -138,9 +178,23 @@
       "lyrics": "Doluv2luvu\nOther artist\nVarious artist\nI'm feelin' like a misfit, you're the big hit, got addicted to\nFirst time, I didn't like it, now I need it, double dose of you\nYou got me feelin' helpless, I'm a big mess, with the wrong tattoo\nYou're lookin' like an angel, but a halo, doesn't make it true\nMy heart, you know, just doesn't wanna let you go\nDon't know why, I die for love (I do love to love you)\nHow I cry, when I'm in love (I do love to love you)\nTry and try, to stay in love (I do love to love you)\nSome people say I'm stupid, shoot the cupid, with the attitude\nToo late, to be protected, been injected, by a fix of you\nI'll bust it outta rehab, flag the first cab, take it to your door\nNo matter how I fight it, can't deny it, comin' back for more\nI fell, so deep, a kinda love that makes me weep\nYour skin, my sin, but I would do it all again\n'Cause, oohh, how I, how much I love (I do love to love you)\nDon't know why, I die for love (I do love to love you)\nHow I cry, when I'm in love (I do love to love you)\nTry and try, to stay in love (I do love to love you)\nNanana, nananana (I do love to love you)\nNanana, nananana (I do love to love you)\nNanana, nananana (I do love to love you)\nNanana, nananana (I do love to love you)\nI let down my defenses, lose control of my senses\nBoy, this love is expensive, but it's forever endless\nNow I know there is no doubt, we will love 'till we bleed out\nI do love, yeah, I love to love, to love you\nNanana, nananana (I do love to love you)\nNanana, nananana (I do love to love you)\nNanana, nananana (I do love to love you)\nNanana, nananana (I do love to love you)\nOohh, how I, how much I love (I do love to love you)\nDon't know why, I die for love (I do love to love you)\nHow I cry, when I'm in love (I do love to love you)\nTry and try, to stay in love (I do love to love you)\nNanana, nananana (I do love to love you)\nNanana, nananana (I do love to love you)\nNanana, nananana\nDoluv2luvu"
     },
     {
+      "title": "Don't you let go of me",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Don%E2%80%99t%20you%20let%20go%20of%20me.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Don%E2%80%99t%20you%20let%20go%20of%20me.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Don%E2%80%99t%20you%20let%20go%20of%20me.html"
+    },
+    {
       "title": "Don’t you let go of me",
       "artist": "Ilse DeLange",
       "lyrics": "Don't you let go of me\nOther artist\nVarious artist\nDon't you let go of me\nNo solid ground, no relief to be found\nNo promises, no demands, no depending\nSilence, no rules, no bending\nNo mystery\nThere's only you\nI live inside an empty room that's now inside my head\nAnd everywhere and all around, only your arms that I feel\nDon't you let go of me\nNo comfort, no words and no ending\nSolitude, I am tired of pretending\nStill there's only you\nI live inside an empty room that's now inside my head\nAnd everywhere and all around only your arms that I feel\nDon't you let go of me\nThe ceiling high, the walls are wide, no floor beneath my feet\nNowhere to go, nowhere to be and you're still all that I see\nDon't you let go of me\nBe quiet, maybe you can hear my heart\nBe quiet, maybe you won't break me apart\nIt's all down to you\nIt's all down to you\nIt's all down to you\nIt's all down to you\nI live inside an empty room that's now inside my heart\nAnd everywhere and all around, only your arms that I feel\nDon't you let go of me\nThe ceiling high, the walls are wide, no floor beneath my feet\nNowhere to go,nowhere to be and you're still all that I see\nDon't you let go of me\nYou're still all that I need\nDon't you let go of me"
+    },
+    {
+      "title": "Engel van m'n hart",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Engel%20van%20m%E2%80%99n%20hart.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Engel%20van%20m%E2%80%99n%20hart.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Engel%20van%20m%E2%80%99n%20hart.html"
     },
     {
       "title": "Engel van m’n hart",
@@ -203,6 +257,13 @@
       "lyrics": "Have a little faith in me\nOther artist\nVarious artist\nWhen the road gets dark\nAnd you can no longer see\nJust let my love throw a spark\nAnd have a little faith in me\nAnd when the tears you cry\nAre all you can believe\nJust give these loving arms a try, baby\nAnd have a little faith in me\nSo\nHave a little faith in me\nHave a little faith in me\nHave a little faith in me\nHave a little faith in me\nWhen your secret heart\nCannot speak so easily\nCome here darlin'\nFrom a whisper start\nHave a little faith in me\nAnd when your back's against the wall\nJust turn around and you will see\nThat I will catch, I will catch you when you fall baby\nHave a little faith in me\nSo\nHave a little faith in me\nHave a little faith in me\nHave a little faith in me\nHave a little faith in me\nWell I've been loving you for such a long time baby\nExpecting nothing in return\nJust for you to have a little faith in me\nYou see time, time is a friend\n'Cause for us there is no end\nAnd all you gotta do is have a little bit of faith in me\nI said I will hold you up\nYeah I will hold you up\n'Cause your love will give me strenght enough\nAnd have a little faith in me\nHave a little faith in me"
     },
     {
+      "title": "Heartbeat",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Heartbeat.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Heartbeat.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Heartbeat.html"
+    },
+    {
       "title": "Heavenless",
       "artist": "Ilse DeLange",
       "lyrics": "Heavenless\nOther artist\nVarious artist\nI stand still\nI'm frozen\nI feel no pain\nMy heart stopped, unchosen\nLike snow I fade away\nMy arms, weak with emptiness\nMy soul sleeps, I'm heavenless\nThere's no sky above me\nStill shadows I can see\nThe darkness took over\nAnd left me free\nNo laughter\nNo tenderness\nHereafter\nIs heavenless\nAlone, I see is freezing me\nThe ice runs deep inside of me\nThe earth spins beneath me\nAs lifetimes slip away\nEach moment\nSo quickly\nBecoming yesterday\nAfraid I'll die of loneliness\nI'm scared that I am heavenless\nHeavenless\nHeavenless\nHeavenless"
@@ -248,6 +309,27 @@
       "lyrics": "I'm making flowers out of paper\nWhile darkness takes the afternoon\nI know that they won't Previous forever\nI still cry sometimes when I remember you\nI still cry sometimes when I hear your name\nI said goodbye and I know you're alright now\nIt's just that I recall September\nIt's just that I still hear your song\nIt's just I can't seem to remember\nForever more those days are gone\nI still cry sometimes when I remember you\nI still cry sometimes when I hear your name\nI said goodbye and I know you're alright now\nI still cry sometimes when I rememeber you\nI still cry sometimes when I hear your name\nI said goodbye and I know you're alright now"
     },
     {
+      "title": "I'd be yours",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from I%E2%80%99d%20be%20yours.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: I%E2%80%99d%20be%20yours.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "I%E2%80%99d%20be%20yours.html"
+    },
+    {
+      "title": "I'll know",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from I%E2%80%99ll%20know.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: I%E2%80%99ll%20know.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "I%E2%80%99ll%20know.html"
+    },
+    {
+      "title": "I'm not so tough",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from I%E2%80%99m%20not%20so%20tough.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: I%E2%80%99m%20not%20so%20tough.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "I%E2%80%99m%20not%20so%20tough.html"
+    },
+    {
       "title": "Iedereen is van de wereld",
       "artist": "Ilse DeLange",
       "lyrics": "Iedereen is van de wereld\nOther artist\nVarious artist\nIedereen is van de wereld\nDit is voor de misfits die je\nher en der alleen ziet staan.\nDie onder straatlantaarns eten\nen drinken bij de volle maan.\nDit is voor degene die je overal herkent.\nHet leven is voor jou en mij,\nwant dit is ons moment.\nEn ik hef het glas op jouw gezondheid,\nwant jij staat niet alleen\nIedereen is van de wereld\nen de wereld is van iedereen.\nIedereen is van de wereld\nen de wereld is van iedereen.\nDeze is voor iedereen die passie heeft\nen die voor passie gaat.\nIn het donker kan ik jou niet zien,\nmaar ik weet dat jij daar staat.\nEn ik hef het glas op jouw gezondheid,\nwant jij staat niet alleen.\nIedereen is van de wereld\nen de wereld is van iedereen.\nIedereen is van de wereld\nen de wereld is van iedereen\nOoh yeah yeah yeah\nRood zwart,wit geel,jong oud, man of vrouw\nIn het donker kan ik jou niet zien,\nmaar deze is van ons aan jou.\nEn ik hef het glas op jouw gezondheid,\nwant jij staat niet alleen\nIedereen is van de wereld\nen de wereld is van iedereen\nIedereen is van de wereld\nen de wereld is van iedereen\nIedereen is van de wereld\nen de wereld is van iedereen\nIedereen is van de wereld\nen de wereld is van iedereen\nvan iedereen (9x)"
@@ -261,6 +343,13 @@
       "title": "Inside job",
       "artist": "Ilse DeLange",
       "lyrics": "You took it to heart\nThat is my love\nAnd I thank heaven that I found you\nI thank the stars above\nThe way that it happened\nWell it might sound strange\nHere comes a change\nSo I went down into myself\nWhere any fool could see\nWasn't gettin' out of me\nIt was an inside job\nBaby we worked it out\nIt was an inside job\nBaby we worked it out\nI didn't know just what went wrong\nAll of my lights went out when you were gone\nI called and you came\nRight to my side\nIt was my pride\nSo I went down into myself\nWhere any fool could see\nWasn't getting out of me\nIt was an inside job\nBaby we worked it out\nIt was an inside job\nBaby we worked it out\nLost and alone, but now I've found\nWell, it's from the inside out\nThe walls come tumblin' down\nI didn't surrender, but now I see\nBaby when I turn my love over\nSweet love comes back to me\nSo I went down into myself\nWhere any fool could see\nWasn't gettin' out of me\nIt was an inside job\nBaby we worked it out\nIt was an inside job\nBaby we worked it out\nIt was an inside job\nBaby we worked it out\nBaby we worked it out\nBaby we worked it out\nBaby we worked it out\nInside job"
+    },
+    {
+      "title": "It'll come to you",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from It%E2%80%99ll%20come%20to%20you.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: It%E2%80%99ll%20come%20to%20you.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "It%E2%80%99ll%20come%20to%20you.html"
     },
     {
       "title": "Just kids",
@@ -316,6 +405,13 @@
       "title": "Man in the moon",
       "artist": "Ilse DeLange",
       "lyrics": "Man in the moon\nOther artist\nVarious artist\nAs I sit here below the light\nAnd write these words to you\nAnd I'm thinking how time just flies\nYears of yesterdays all feel like they're new\nI remember those cold cold nights\nFelt like they started at noon\nWe only saw pitch black\nNot the man in the moon\nNow we look from the outside\nWe've distanced the pain\nWe've boxed disappointments and put them away\nWe don't cry anymore\nAnd every once in a while there's a smile\nNow don't let expectations\nFill the room of your heart\nIt'll shape it and break it\nTill we've drifted apart\nNow we look from the outside\nWe've distanced the pain\nWe've boxed disappointments and put them away\nWe don't cry anymore\nAnd every once in a while there's a smile\nNow we look from the outside\nWe've distanced the pain\nWe've boxed disappointments and put them away\nWe don't cry anymore\nAnd every once in a while\nNow there's a smile here this afternoon\nAs I write these words to you\nIn a while, with our hope renewed\nWe look up to sky\nJust you and I\nAnd the man in the moon\nMan in the moon"
+    },
+    {
+      "title": "Miracle",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Miracle.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Miracle.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Miracle.html"
     },
     {
       "title": "Miss politician",
@@ -418,6 +514,20 @@
       "lyrics": "Riding with the king\nOther artist\nVarious artist\nRiding with the king\nI dreamed I did a good job and I got well paid\nI blew it all at the penny arcade\nA hundred dollars on a kewpie doll\nI guess no white chick is gonna make him crawl\nOn a TWA, to the promised land\nEverybody come on clap your hands\nDon't you just love the way he sings\nDon't you know we're riding with the king?\nHe's on a mission of mercy to the new frontier\nHe's gonna check us all on out of here\nUp to that mansion on a hill\nWhere you can get your prescription filled\nOn a TWA to the promised land\nEvery woman, child and man\nA cadillac or a diamond ring\nDon't you know we're riding with the king?\nA red cape and his shiny cold 45\nI never saw his face but I saw the light\nTonight everybody's getting angel wings\nDon't you know we're riding with the king?\nWell I was just about ten years old\nWhen I stepped out of that mirror\nI had a suit cut sharp\nLike a razor and a heart of gold\nI had a guitar hanging just about waist high\nI'm gonna play that thing until I die\nWe're riding with the king"
     },
     {
+      "title": "Right with you",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Right%20with%20you.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Right%20with%20you.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Right%20with%20you.html"
+    },
+    {
+      "title": "Runaway",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Runaway.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Runaway.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Runaway.html"
+    },
+    {
       "title": "Shine",
       "artist": "Ilse DeLange",
       "lyrics": "Shine\nOther artist\nVarious artist\nShine\nWe couldn't decide on\nWho was going to drive tonight\nSo I guess he felt the tension\nFrom his side of this taxi-\nride\nAsking us where we're headed for\nAnd if we were both alright\nI said, just drive\nI...I still shine\nWith every passing neon sign\nI took everything inside\nI still shine\nI take my coat and I go where I always go\nGuess that I'll pay for the ride\nRight or wrong, it's the same old song\n'Cause you never try\nShut up 'cause you never listen\nYou're selfish and conceited and\nMan you never compromise\nWell I still shine\nI...I still shine\nIf you'd rather be alone just take\nYour torments and go on\nI still shine\nShine all you want but you don't taste\nLike you used to\nYou can cry all you want but you don't\nBring me down like you used to\nYou never gave me credits for the things I did for you\nI'm alright, I'm alright\nI...I still shine\nWith every passing neon sign\nI took everything inside\nI still shine\nI still shine"
@@ -453,9 +563,23 @@
       "lyrics": "Stay with me\nOther artist\nVarious artist\nStay with me\nSometimes I wake to catch the sun\nWatch it rise before it runs routines\nI turn around, you're lying there\nLike a Polaroid, a flash of you and me\nLove me, never let me go\nStay with me\nFor just another moment\n'Till you fade from me again\nYou come and go just like the wind\nWhispering, and I give in\nSo stay with me\nStay with me\nLike the summer days in hourglasses\nSlowly bloomed then quickly passed away\nThe butterflies have long gone still\nI saved them all and put them on display\nLove me, never let me go\nStay with me\nFor just another moment\n'Till you fade from me again\nYou come and go just like the wind\nWhispering, and I give in\nSo stay with me\nStay with me\nLet me get lost in\nMy only memory is you\nI would give all I have\nI'll hold my hand out\nHoping that you'll find\nAnd if you do\nOn my way to catch a train\nOn an early morning, pouring rainy grey\nI saw a man come round the bend\nThe way he stopped\nAnd turned his head to say\nI heard him say\nStay with me\nFor just another moment\n'Till you fade from me again\nStay with me\nFor just another moment\n'Till you fade from me again\nYou come and go just like the wind\nWhispering, and I give in\nSo stay with me"
     },
     {
+      "title": "Sun &shadow",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Sun%20%26shadow.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Sun%20%26shadow.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Sun%20%26shadow.html"
+    },
+    {
       "title": "Sure Pinocchio",
       "artist": "Ilse DeLange",
       "lyrics": "You told me you'd hold me\nNow I know better\n'Cause all you did was fold me honey\nLike a dear John letter\nYou put me in a box\nWith God and his uncle\nLike a pair of gym socks\nLookin' like Artie Garfunkel\nYou broke my heart\nThe check's in the mail\nWe'll do lunch when you get out of jail\nSure Pinocchio\nWell, anything you say\nSure Pinocchio\nHave it your own way\nYou took me for a ride\nI'm crawling out of this gutter\nYou hurt me down inside, baby\nWhat was that you muttered\nSomethin' bout wishing on a star\nOr a fish out of water\nWell, I know who you are\nYou're Gepetto's wicked daughter\nYou broke my heart\nThe check's in the mail\nWe'll do lunch when you get out of jail\nSure Pinocchio\nWell, anything you say\nSure Pinocchio\nHave it your own way\nYou broke my heart\nThe check's in the mail\nWe'll do lunch when you get out of jail\nSure Pinocchio\nWell, anything you say\nSure Pinocchio\nHave it your own way\nSure Pinocchio\nAnything you say\nSure Pinocchio\nHave it your own way\nSure Pinocchio"
+    },
+    {
+      "title": "Tab dancing on the highwire",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Tab%20dancing%20on%20the%20highwire.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Tab%20dancing%20on%20the%20highwire.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Tab%20dancing%20on%20the%20highwire.html"
     },
     {
       "title": "Thank you",
@@ -538,6 +662,13 @@
       "lyrics": "Used to hold me, now I hold you\nUsed to tell me, now I tell you\nDon’t worry, don’t worry\nWe won’t be apart\nYou were strong, now I’m stronger\nPlease hold on, a little longer\nDon’t worry, don’t worry\nWe won’t be apart, ‘cause\nRhythm of a beating heart\nNever be apart, never be apart\nOooh ooh ooh ooh\nNever be apart\nGave me love and I love you\nIn my blood pieces of you\nDon’t worry, doný worry\nWe won’t be apart\nWhen you’re gone I’ll remember\nIn my heart, still together\nDon’t worry, don’t worry\nWe won’t be apart, ‘cause\nRhythm of a beating heart\nNever be apart, never be apart\nOooh ooh ooh ooh\nNever be apart\nIf you need to move on\nThen I leave a light on\nTo help you find your way back home\nYou are away and\nI will be waiting\n‘Cause we are one one one, one one one\nRhythm of a beating heart\nNever be apart, never be apart\nOooh ooh ooh ooh\nNever be apart, never be apart\nNever be apart"
     },
     {
+      "title": "We're alright",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from We%E2%80%99re%20alright.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: We%E2%80%99re%20alright.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "We%E2%80%99re%20alright.html"
+    },
+    {
       "title": "What does your heart say now",
       "artist": "Ilse DeLange",
       "lyrics": "What does your heart say now\nOther artist\nVarious artist\nWhat does your heart say now\nWhat does your heart say now\nYesterday we kept a safer distance\nWe walked a borderline that seemed so clear\nWe crossed that line Previous night\nIt vanished with the morning light\nNow I wanna know, where do we go from here\nchorus:\nWhat does your heart say now\nNow that we have touched, now that we have kissed\nWhat does your heart say now\nNow that its come to this\nIs it the same, or has something changed\nNow that we have let our guards down\nI just want to know, what does your heart say now\nPrevious night we said things one soul to another\nIn ways that spoken words could not express\nNo room was left for doubt\nDont leave me in the dark\nDont make me guess\n(chorus)"
@@ -578,6 +709,13 @@
       "lyrics": "Day one God smiled,\nGave us all the wisdom of a newborn child\nWe've already begun to forget\nWhat the heart knows the heart sees\nWe're just as much the forest, as we are the trees\nEvery little seed trying to find Where the light comes from\nChorus:\nAnd it's a world of hurt, nothing works\nIt's a lonely little planet made of dust and dirt\nWho'd ever think that in the midst of all this\nSomething as beautiful as love exists\nAnd when I hold you, and you hold me\nHeaven doesn't seem like such a mystery\nDarling in a world of hurt\nYou make me feel so good\nDay one of our love,\nTwo heartbroken people scared to trust too much\nOh but here it comes that feelin' again\nThat every lover swears will never end\nWe thought we'd been there, done that,\nWe knew we'd never been here..\nWe've never done this\nWhen you love someone\nRepeat chorus"
     },
     {
+      "title": "Wouldn't that be something",
+      "artist": "Ilse DeLange",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Wouldn%E2%80%99t%20that%20be%20something.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Wouldn%E2%80%99t%20that%20be%20something.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Wouldn%E2%80%99t%20that%20be%20something.html"
+    },
+    {
       "title": "You are the dream",
       "artist": "Ilse DeLange",
       "lyrics": "You are the dream\nOther artist\nVarious artist\nI lived my life, convinced i find your love somehow, somewhere.\nI healt on to the faith that you would show yourself one day.\nSomething in me believed, this night was meant to be.\n(CHORUS)\nYou are the promise\nI made to my heart\nYou are the vision\nI saw in the dark\nYou are the reason\nI waited so patiently\nSo many nights when I closed my eyes\nIt's you that I have seen\nI am the dreamer\nYou are the dream.\nIt wasn't always clear to see\nwhere I was headed to\nSomehow I choose the one that led to you\nDoesn't matter how far I've been\nI've found my journeys end\n(CHORUS)\nOoh I am the dreamer\nYou are the dream.\nYou are the dream"
@@ -586,6 +724,34 @@
       "title": "Arms of salvation",
       "artist": "The Common Linnets",
       "lyrics": "When your troubled heart is restless\nAnd your morning's feeling blue\nAnd a part of you is doubting everything you ever knew\nWhen you're running fast from darkness\nAnd it's just a step behind\nAnd your feet they start to stumble on the shadows in your mind\nJust hold on to the knowing\nThat it's gonna be allright\nAnd the arms of salvation will be holding you tonight\n(yes they will)\nIn the quiet of the healing\nIn the falling of the light\nThere's a simple sort of certainty when love is at your side\nSo when that hard rain starts to sting you\nAnd that cold wind starts to bite\nYou know there's freedom in surrender\nBaby you don't have to fight\nJust hold on to the knowing\nThat it's gonna be allright\nAnd the arms of salvation will be holding you tonight\nJust hold on to the knowing\nThat it's gonna be allright\nAnd the arms of salvation will be holding you tonight\n(yes they will)\nArms of salvation"
+    },
+    {
+      "title": "As if only",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from As%20if%20only.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: As%20if%20only.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "As%20if%20only.html"
+    },
+    {
+      "title": "Before complete surrender",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Before%20complete%20surrender.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Before%20complete%20surrender.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Before%20complete%20surrender.html"
+    },
+    {
+      "title": "Better than that",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Better%20than%20that.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Better%20than%20that.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Better%20than%20that.html"
+    },
+    {
+      "title": "Broken but Home",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Broken%20but%20Home.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Broken%20but%20Home.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Broken%20but%20Home.html"
     },
     {
       "title": "Calm after the storm",
@@ -598,6 +764,20 @@
       "lyrics": "Christmas around me\nOther artist\nVarious artist\nChristmas around me\nas second track on the disc."
     },
     {
+      "title": "Days of endless time",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Days%20of%20endless%20time.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Days%20of%20endless%20time.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Days%20of%20endless%20time.html"
+    },
+    {
+      "title": "Dust of Oklahoma",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Dust%20of%20Oklahoma.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Dust%20of%20Oklahoma.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Dust%20of%20Oklahoma.html"
+    },
+    {
       "title": "Give me a reason",
       "artist": "The Common Linnets",
       "lyrics": "Give me a reason\nOther artist\nVarious artist\nGive me a reason\nup with Waylon"
@@ -608,9 +788,44 @@
       "lyrics": "Hearts on fire, lyrics\nOther artist\nVarious artist\nHearts on fire\nSo there you are, alone and proud\nAnother wasted evening down\nTelling yourself is what you need\nTill you're back on your feet\nI know those winds that changed your course\nAnd never blown so hard before\nBaby, come on out\nDid you feel your heart's on fire\nDid you see the sparks are flying\nBurn in the night, yeah, we\nAre the wild and free\nDid you feel your heart's on fire\nHearts on fire\nNo clock is counting down the time\nNo walls between your heart and mine\nIt's all been set in motion\nIn motion, no explosion\nThese city's streets are yours to roam\nIt's all here waiting for you\nI'm right here waiting\nDid you feel your heart's on fire\nDid you see the sparks are flying\nBurn in the night, yeah, we\nAre the wild and free\nDid you feel your heart's on fire\nDid you feel your heart's on fire\nDid you see the sparks are flying\nBurn in the night, yeah, we\nAre the wild and free\nDid you feel your heart's on fire\nHearts on fire\nHearts on fire\nI've been waiting (Been waiting)\nI've been waiting\nBurn in the night, yeah, we\nAre the wild and free\nDid you feel your heart's on fire\nDid you feel your heart's on fire\nDid you see the sparks are flying\nBurn in the night, yeah, we\nAre the wild and free\nDid you feel your heart's on fire\nHearts on fire\nHearts on fire"
     },
     {
+      "title": "Hungry hands",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Hungry%20hands.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Hungry%20hands.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Hungry%20hands.html"
+    },
+    {
+      "title": "I like it like that",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from I%20like%20it%20like%20that.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: I%20like%20it%20like%20that.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "I%20like%20it%20like%20that.html"
+    },
+    {
       "title": "In your eyes",
       "artist": "The Common Linnets",
       "lyrics": "In your eyes\nOther artist\nVarious artist\nIn your eyes"
+    },
+    {
+      "title": "Indigo moon",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Indigo%20moon.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Indigo%20moon.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Indigo%20moon.html"
+    },
+    {
+      "title": "Jolene",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Jolene.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Jolene.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Jolene.html"
+    },
+    {
+      "title": "Kalverliefde",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Kalverliefde.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Kalverliefde.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Kalverliefde.html"
     },
     {
       "title": "Love goes on",
@@ -618,14 +833,77 @@
       "lyrics": "Love goes on, lyrics\nOther artist\nVarious artist\nLove goes on, lyrics\nPlease don’t think that I’ve forgotten\nwho you were and are to me\nthere’s a safe place in my heart\nthere you’ll always be with me\nyears pass by and we get older\nthere’s so much you didn’t see\nmuch more than a memory\nendless highway, bring me home\nall I know is that our love goes on\nYou’re in me and in my brothers\nYes and mom still wears your ring\nFor her, there’ll never be another\nYou don’t compare to anything\nSinging songs while doing dishes\nCracking jokes, you filled the room\nI miss your laughter and your kisses\nThat’s how I’ll remember you\nEndless highway, bring me home\nAll I know is that our love goes on\nYes, all I know is, that our love goes on"
     },
     {
+      "title": "Lovers & Liars",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Lovers%20%26%20Liars.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Lovers%20%26%20Liars.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Lovers%20%26%20Liars.html"
+    },
+    {
+      "title": "Proud",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Proud.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Proud.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Proud.html"
+    },
+    {
       "title": "Runaway man",
       "artist": "The Common Linnets",
       "lyrics": "Runaway man, lyrics\nOther artist\nVarious artist\nRunaway man\nWhen i was younger, and all i had to do\nWas hold your hand and drink you in and make some time for you\nI went stumbling through the darkness of a thousand half-\nlit bars\nI don’t know what i was running from, but I must have run too far\nNow I’m reaching back for something\nAnd it’s a long long way from where i was to where i am\nGod have mercy on a runaway man\nGod have mercy on a runaway man\nThe key under your doormat, the porch light you left lit\nThe years dragged on and burred away just like a cigarette\nAnd the price of all those nights was never worth the morning cost\nNo, no amount of wishing’s gonna bring back what I lost\nAnd now i’m reaching back for something\nAnd it’s a long long way from where i was to where i am\nGod have mercy on a runaway man\nGod have mercy on a runaway man\nAnd it’s a long long way from where i was to where i am\nGod have mercy on a runaway man\nGod have mercy on a runaway man\nGod have mercy on a runaway man\nGod have mercy on a runaway man"
     },
     {
+      "title": "Soho waltz",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Soho%20waltz.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Soho%20waltz.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Soho%20waltz.html"
+    },
+    {
       "title": "Still loving after you",
       "artist": "The Common Linnets",
       "lyrics": "Still loving after you, lyrics\nOther artist\nVarious artist\nStill loving after you\nHalf a world away\nand a thousand nights behind\nI am still loving after you\nIn the darkness of my days\nin the silence of my mind\nI am still loving after you\nAnd your beautiful dreams are illusions\nand the song that you sing is not true\nand the times that you have lied\nI am still loving after you\nI'm a stranger to these streets\nA ghost behind these walls\nAnd regrets I've more than a few\nWith a heart that's hurting hollow.\nBroken by a fall\nI am still loving after you\nAnd your beautiful dreams are illusions\nand the song that you sing is not true\nand the times that you have lied\nI am still loving after you.\nI thought one day I might be in love\ndeserving of your love\nI quess I must not know when to give up\nbecause I'm not giving up\nAnd your beautiful dreams are illusions\nand the song that you sing is not true\nand the times that you have lied\nI am still loving after you\nand the times that you have lied\nI am still loving after you\nCause I am still loving after you…"
+    },
+    {
+      "title": "Sun Song",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Sun%20Song.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Sun%20Song.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Sun%20Song.html"
+    },
+    {
+      "title": "That part",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from That%20part.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: That%20part.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "That%20part.html"
+    },
+    {
+      "title": "Time has no mercy",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Time%20has%20no%20mercy.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Time%20has%20no%20mercy.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Time%20has%20no%20mercy.html"
+    },
+    {
+      "title": "Walls of Jericho",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from Walls%20of%20Jericho.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: Walls%20of%20Jericho.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "Walls%20of%20Jericho.html"
+    },
+    {
+      "title": "We don't make the wind blow",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from We%20don%27t%20make%20the%20wind%20blow%2C%20lyrics.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: We%20don%27t%20make%20the%20wind%20blow%2C%20lyrics.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "We%20don%27t%20make%20the%20wind%20blow%2C%20lyrics.html"
+    },
+    {
+      "title": "When love was king",
+      "artist": "The Common Linnets",
+      "lyrics": "[MISSING: Lyrics need to be extracted from When%20love%20was%20king.html]\n\nThis song was identified as missing from the original extraction.\nHTML file: When%20love%20was%20king.html\nExpected in complete 161-song catalog.",
+      "extractionStatus": "missing",
+      "sourceFile": "When%20love%20was%20king.html"
     },
     {
       "title": "Where do I go with me",
